@@ -1,6 +1,7 @@
 # ethos-auto-tuning
 Ethos ccminer auto gpu core memory and power tuning 
 
+USAGE
 Be sure that you are connected to the internet.
 
 Disable remote.conf. To disable remote.conf delete or comment everything inside that file. Backup your local.conf. When the test finish you must restore your local.conf
