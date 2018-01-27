@@ -1,7 +1,7 @@
 # ethos-auto-tuning
 Ethos ccminer auto gpu core memory and power tuning 
 
-USAGE
+EASY CONFIG AND USAGE
 
 Be sure that you are connected to the internet.
 
