@@ -1,0 +1,22 @@
+#miner ccminer
+#algo nist5
+#flags  -i 26 --submit-stale
+#maxgputemp  85
+#globalfan 85
+#cenable 1
+#menable 1
+#penable 1
+#cor 0
+#mem 0
+#pwr 0
+#cstep 5
+#mstep 250
+#pstep 5
+#cmaxsteps 25
+#mmaxsteps 10
+#pmaxsteps 30
+#useclockplusstyle 1
+#maxplus 180
+#initwaitseconds 120
+#checkeveryseconds 60
+#testminutes 	20
