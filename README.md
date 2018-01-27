@@ -1,6 +1,10 @@
 # ethos-auto-tuning
 Ethos ccminer auto gpu core memory and power tuning 
 
+To get it to your rig run command on terminal:
+git clone https://github.com/yarustr/autotuning
+
+
 EASY CONFIG AND USAGE
 
 Be sure that you are connected to the internet.
