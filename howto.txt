@@ -84,6 +84,7 @@ Example:
 #algo nist5
 
 3. setting is #flags. Here you can set flags of the ccminer. If you do not know or are not sure, please use the default settings.
+-i is intensity settings. it will be different for algorithm you mining. Lets say you mining with gtx 1080 ti and nist5, so you can set -i 27.3 and if you mine equihash with same card -i 28.5 . By intensity you set work load of the gtx. You can check memory usage of cards by command nvidia-smi . You should aim maximum memory usage for maximum hashrate.
 Example:
 #flags   -i 26 --submit-stale
 
@@ -153,7 +154,7 @@ Example:
 Example:
 #maxplus 180
 
-20. setting is #initwaitseconds. This setting is used to set a waiting time for the miner after the testing starts. If any of the GPUs failed, the rig will be restarted. 120 seconds is the optimum waiting time. Do not set it too low (minimum 60 second recomended), otherwise a false GPU fail will be detected.
+20. setting is #initwaitseconds. This setting is used to set a waiting time for the miner after the testing starts. If any of the GPUs failed, the rig will be restarted. 120 seconds is the optimum waiting time. Do not set it too low (minimum 60 second recomended), otherwise a false GPU fail will be detected. For some algorithm this time can go upto 5 minutes. You should see if all of your gpus getting hash in given init wait time or not. Otherwise detection of "failed gpu" will be wrong. 
 Example:
 #initwaitseconds 120
 
