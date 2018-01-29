@@ -88,6 +88,7 @@ Example:
 Lets say you mining with gtx 1080 ti and nist5, so you can set -i 27.3 and if you mine equihash with same card -i 28.5 .
 By intensity you set work load of the gtx. You can check memory usage of cards by command nvidia-smi .
 You should aim maximum memory usage for maximum hashrate. Or you just do not set any flags so it will use default intensity.
+If you put -i high than your card can handle then ccminer will give "out of memory" error. This will couse wrong "failed gpu detect". So put max -i according to your card.
 Example:
 #flags   -i 26 --submit-stale
 
